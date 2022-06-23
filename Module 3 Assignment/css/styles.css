@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+  font-family: cursive;
+  font-size: 16px;
+}
+
+div h1{
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+
+#top-heading{
+  color: black;
+  font-weight: bold;
+  font-style: cursive;
+  padding: 10px;
+  margin: 0px;
+  padding-left: 50px;
+}
+
+div{
+  width: 95;
+/*  margin: 0% -2% 0% -2%;
+*/  position: relative;
+}
+
+p{
+  background-color: grey;
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 30px;
+  color: black;
+  padding:5%;
+  padding-bottom: 3%;
+  padding-top: 55px;
+}
+
+h2{
+  color: black;
+  position: absolute;
+  text-align: center;
+  font-weight: bold;
+  overflow: hidden; 
+  width: 50%;
+  left: 25%;
+  top: -0.5%; 
+  clear: both;
+}
+
+/*@media (max-width: 991px){
+  div{
+    width: 90;
+    margin: 0% -1% 0% -1%;
+    position: relative;
+  }
+}*/
+
+.navbar-brand {
+    float: left;
+    height: 100px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.navbar-default{
+  background-color: grey;
+  padding-bottom: 0px;
+  margin: 0px;
+  border: 3px solid black;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list a {
+  color: black;
+  background-color: white;
+  text-align: center;
+  border: 2px solid black;
+}
+
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+.navbar-collapse{
+  margin: 0px;
+}
+
+ul#nav-list{
+  margin: 0px;
+  width: 100%;
+}
+
+.navbar-toggle{
+  margin-top: 25px;
+  border: 2px solid black;
+}
+
+.navbar-default .navbar-toggle{
+  border-color: black;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: black;
+}
+
+div#collapsable-nav{
+  width: 100%;
+  padding: 0px;
+}
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
